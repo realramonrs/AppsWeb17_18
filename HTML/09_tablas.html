@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>09 Tablas</title>
+	<style type="text/css">
+		table{
+			border-spacing: 5px;
+		}
+		table,tr,td,th{
+			border: 1px solid blue;
+		}
+		th,td,tr{
+			padding: 15px;
+		}
+
+		table.colapsada{
+			border-collapse: collapse;
+		}
+
+	</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td>John Lennon</td>
+    <td>Guitarra rítmica</td>
+  </tr>
+  <tr>
+    <td>Paul McCartney</td>
+    <td>Bajo</td>
+  </tr>
+  <tr>
+    <td>George Harrison</td>
+    <td>Guitarra principal</td>
+  </tr>
+  <tr>
+    <td>Ringo Starr</td>
+    <td>Batería</td>
+  </tr>
+</table>
+
+<hr>
+<h3> Tabla con thead , tbody y tfoot </h3>
+
+ 
+<table class="colapsada">
+<thead>
+    <tr>
+      <th>Name</th>
+      <th>Instrument</th>
+    </tr>
+  </thead>
+<tfoot>
+    <tr>
+      <th>Name</th>
+      <th>Instrument</th>
+    </tr>
+  </tfoot>
+ 
+<tbody>
+  <tr>
+    <td>John Lennon</td>
+    <td>Guitarra rítmica</td>
+  </tr>
+  <tr>
+    <td>Paul McCartney</td>
+    <td>Bajo</td>
+  </tr>
+  <tr>
+    <td>George Harrison</td>
+    <td>Guitarra principal</td>
+  </tr>
+  <tr>
+    <td>Ringo Starr</td>
+    <td>Batería</td>
+  </tr>
+<tbody>
+ 
+</table>
+
+<hr>
+<h3> Ejemplo de RowSpan y ColSpan </h3>
+<table>
+  <tr>
+    <th colspan="2">Michael Jackson Singles</th>
+  </tr>
+  <tr>
+    <th rowspan="3">1979</th>
+    <td>Don't Stop 'Til You Get Enough</td>
+  </tr>
+  <tr>
+    <td>Rock with You</td>
+  </tr>
+  <tr>
+    <td>Off the Wall</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
