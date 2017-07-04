@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>02Elementos de Bloque Vs Linea</title>
+	<meta charset="utf-8">
+
+	<!-- La etiqueta <style> nos permite introducir estilos css directamente
+	en la cabecera -->
+
+	<style type="text/css">
+		#especial{
+			font-weight: bold;
+		}
+
+		.azules{
+			color: darkblue;
+		}
+
+
+		p{
+			border:2px solid darkred;
+			padding:10px;
+			background-color: #c7c5c5;
+		}
+		a{
+			border:2px solid darkgreen;
+			padding:5px;
+		}
+
+		i,b{
+			color: green;
+			border:2px solid darkred;
+		}
+	</style>
+</head>
+<body>
+<p id="especial" class="azules"> Soy un párrafo muy especial de la clase de los azules y contengo un enlace a <a href="http://www.ramonrs.com">ramonrs.com</a></p>
+
+<p> Los elementos de bloque siempre se representan en una nueva línea mientras que los elementos de linea se visualizan en el <i>sitio en</i> el que se<b> insertan:</b> </p>
+
+</body>
+</html>
