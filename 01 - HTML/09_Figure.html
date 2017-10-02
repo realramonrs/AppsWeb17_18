@@ -11,21 +11,29 @@
 			font-weight: bold;
 			font-style: italic;
 		}
+
+		.bordeAzul{
+			border:10px solid blue;
+			padding: 10px;
+		}
 	</style>
 </head>
 <body>
 <img src="imagenes/paisaje2.jpg" alt="imagen sin figure"/>
-<img src="imagenes/paisaje2.jpg" alt="imagen sin figure" width="150px" height="150px" />
+<img src="imagenes/paisaje2.jpg" alt="imagen sin figure" width="150px" height="50px" />
 <figure>
 	<img src="imagenes/paisaje.jpg" alt="paisaje 1"/>
-	<img src="imagenes/paisaje2.jpg" alt="paisaje 1"/>
+	<img src="imagenes/paisaje2.jpg" alt="paisaje 1" class="bordeAzul" />
+	<img src="imagenes/paisaje.jpg" alt="paisaje 1"/>
+	<img src="imagenes/paisaje2.jpg" alt="paisaje 1" class="bordeAzul" />
+	
 	<figcaption> Paisaje espectacular </figcaption>
 	
 </figure>
 <hr>
-<h4> Imagen utilizando <a href="https://placeholder.com/"> Placeholder.com </a></h4>
+<h4 class="bordeAzul"> Imagen utilizando <a href="https://placeholder.com/"> Placeholder.com </a></h4>
 <figure>
-	<img src="http://via.placeholder.com/350x150"></a>
+	<img src="http://via.placeholder.com/700x150"></a>
 	<figcaption> Hueco para posible imagen </figcaption>
 </figure>
 </body>
