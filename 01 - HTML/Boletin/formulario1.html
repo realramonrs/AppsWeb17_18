@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="paginaservidor.php" method="get">
+	<fieldset>
+		<legend> Form Validation</legend>
+
+	<p><label for="nombre">Nombre : </label>
+	<input type="text" name="txtNombre" id="nombre">
+	</p>
+	<div>
+	<label> Username: <input type="text" name="txtUsername" required></label>
+	</div>
+
+	<label>Password<input type="password" name="" maxlength="12"></label>
+	
+	
+	<p> Genero </p>
+	<label><input type="radio" name="genero" value="male"> Male</label>
+	<label><input type="radio" name="genero" value="female"> Female</label>
+	<label><input type="radio" name="genero" value="other"> Other</label>
+	<p>
+	<label>Contact no<input type="number" name="txtNumero" ></label>
+	</p>
+	
+	<label> Correo:  <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></label>
+	<p><select>
+	<option value="" disabled selected> Please select one option </option>
+		<option value="mcst" >Montecastelo </option>
+		<option value="paz"> Paz Andrade</option>
+		<option value="acacias"> Las acacias</option>
+	</select></p>
+	<p>
+		<label>Escoja dos colores: 
+		<select multiple>
+			<option value="red">Rojo</option>
+			<option value="blue">Azul</option>
+			<option value="yellow">Amarillo</option>
+			<option value="pink">Rosa</option>
+		</select>
+		</label>
+
+	</p>
+
+	<input type="submit" name="btnEnviar" value="Enviar">
+	</fieldset>
+</form>
+</body>
+</html>
