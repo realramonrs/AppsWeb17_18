@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>01_fontsize</title>
+	<style type="text/css">
+		html{
+			font-size: 18px;
+		}
+		p.grande{
+			font-size: 2rem;
+			/*Valor computado = 36px ; 18*2 = 36*/
+		}
+		p.extraGrande{
+			font-size: 3em;
+			/*Valor computado= 54px ; 18*3 = 54*/
+		}
+
+
+		/* Ejemplo 2:*/
+		article{
+			font-size: 20px;
+		}
+
+		p.grande2{
+			font-size: 2em;
+		}
+		p.grandeRem{
+			font-size: 2rem;
+		}
+
+	</style>
+</head>
+<body>
+<p> Este es un párrafo de 18px </p>
+<p class="grande"> Este es un párrafo de 2rem </p>
+<p class="extraGrande"> Este es un párrafo de 48px</p>
+
+<!-- ***** Ejemplo 2: Diferencia em y rem -->
+<hr>
+<article>
+	<p>
+		Este es un párrafo con un font-size de 20px que hereda de su padre &lt;article&gt;
+	</p>
+
+	<p class="grande2">Este es un párrafo de 40px ya que su fontsize vale 2em</p>
+
+	<p class="grandeRem"> Este es un párrafo de 36 px ya que su font-size vale 2rem</p>
+</article>
+</body>
+</html>

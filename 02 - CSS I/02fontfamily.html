@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>02_FontFamily</title>
+	<style type="text/css">
+		
+		@font-face{
+			font-family: 'MiFuente';
+			src:url("fonts/signature.ttf");
+		}
+		
+		html{
+			font-family: Verdana,sans-serif;
+			/*Primero fuente especifíca y después genérica*/
+		}
+
+		p.roboto{
+		
+		}
+
+		p.daFont{
+			font-family: 'MiFuente';
+		}
+	</style>
+</head>
+<body>
+<p> Fuente = Verdana heredada de &lt;html&gt; </p>
+<article>
+	<p class="roboto"> Fuente Roboto de Google Fonts</p>
+	<p class="daFont"> Fuente original de DaFont </p>
+</article>
+</body>
+</html>
