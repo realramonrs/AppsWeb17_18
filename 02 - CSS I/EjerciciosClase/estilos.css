@@ -1,0 +1,9 @@
+p{
+	 font-size:1.4rem;
+     color: red;
+}
+
+ p.bold{
+     color: green;
+     font-weight:bold;
+   }
