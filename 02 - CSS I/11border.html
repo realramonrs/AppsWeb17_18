@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		p{
+			border-left: 10px solid gray;
+			border:2px solid blue; 
+		}
+
+		p.bordePuntos{
+			width: 300px;
+			border-style: dotted;
+			border-width: 2px 4px;
+			border-left-color: red;
+			border-right-color: red;
+			border-top-color: blue;
+			border-bottom-color: blue;
+		}
+
+		p.bordeDistinto{
+			border-top: 1px solid orange;
+			border-bottom: 20px dashed green;
+			border-left:10px double gray;
+			border-right:20px double black;
+		}
+
+		div{
+			width: 300px;
+			background-color: green;
+			border:3px solid maroon;
+			height: 300px;
+			margin-bottom: 15px;
+			border-radius: 50px;
+		}
+
+		div.radiusVertical{
+			width: 300px;
+			background-color: green;
+			border:3px solid maroon;
+			height: 300px;
+			
+			border-top-right-radius: 50px 150px;
+			border-bottom-left-radius: 50px 150px;
+		}
+	</style>
+</head>
+<body>
+<p> Parrafo con borde normal </p>
+<p class="bordePuntos"> Parrafo con borde con puntos </p>
+<p class="bordeDistinto"> Parrafo con cuatro bordes distintos</p>
+<div>
+</div>
+<div class="radiusVertical">
+</div>
+</body>
+</html>

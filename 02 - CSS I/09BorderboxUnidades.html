@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ejemplo unidades em vs rem vs %</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+	div.container{
+		font-size: 20px;
+		border:1px solid black;
+	}
+		p{
+			font-size: 2em;			
+			width: 450px;
+			border:10px solid red;
+			padding: 2em;
+			
+		}
+
+		p.borderbox{
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+<p class="borderbox">
+	Esto e un parrafo con border-box o content-box
+</p>
+<p >
+	Esto es un parrafo con content box o border-box
+</p>
+</div>
+</body>
+</html>

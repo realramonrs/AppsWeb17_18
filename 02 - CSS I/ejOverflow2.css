@@ -1,0 +1,89 @@
+
+
+body { 
+  background-color: #9FD0CB; 
+  font-family: sans-serif; 
+  text-align: justify; 
+}
+
+h1 { 
+  background-color: #FFCC99; 
+  font-size: 140%; 
+  left: 0%; 
+  margin: 0px;
+  overflow: hidden; 
+  position: absolute; 
+  text-align: center; 
+  text-transform: uppercase; 
+  top: 2%; 
+  width: 100%; 
+}
+
+address { 
+  background-color: #FFCC99; 
+  bottom: 2%; 
+  left: 0%; 
+  margin: 0px;
+  position: absolute; 
+  font-style: normal;
+  width: 100%; 
+}
+
+div.cuerpo { 
+  background-color: #eeeeee; 
+  height: 80%; /* Para que funcione en IE7 hace falta utilizar height, no bottom */
+  left: 10%; 
+  overflow: hidden; 
+  padding: 0px 10px;
+  position: absolute; 
+  top: 10%; 
+  width: 80%; 
+}
+
+div.cuerpo div { 
+  background-color: white; 
+  height: 100%; 
+  padding: 0px; 
+  position: relative; 
+  width: 100%; 
+}
+
+h2 { 
+  font-size: 120%; 
+  margin: 0px;
+  padding-top: 10px;
+  text-align: center; 
+  text-transform: uppercase; 
+}
+
+p.ant { 
+  bottom: 10px; 
+  left: 10px; 
+  position: absolute; 
+}
+
+p.sig { 
+  bottom: 10px; 
+  position: absolute; 
+  right: 10px; 
+}
+
+a { 
+  background-color: white; 
+  color: black; 
+  padding: 2px 5px; 
+  text-decoration: none;
+}
+
+a:hover { 
+  font-weight: bold;
+}
+
+p.centrado { 
+  text-align: center; 
+}
+
+dt { 
+  font-style: oblique; 
+  text-decoration: underline; 
+}

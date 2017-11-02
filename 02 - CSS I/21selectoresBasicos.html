@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		/* Selector de etiqueta */
+
+		a{ /* Links */ }
+		p{ /* Parrafos */ }
+		ul{ /* Listas desordenadas */ }
+		li{ /* List items */ }
+
+		h1,h2,h3,h4{
+
+		}
+
+		/* Selector de clase */
+
+		.cabecera{
+			font-size: 1.2em;
+			text-align: center;
+		}
+
+		/*Selector de clase combinado con selector de etiqueta */
+
+		div.cabecera{
+			font-size: 1.2em;
+			text-align: center;
+		}
+
+		/*Selector de clase múltiple */
+
+		.cabecera.especial{
+			font-size: 1.2em;
+			text-align: center;
+			color: red;
+		}
+
+		/* Selector de id */
+
+		#caja1{
+
+		}
+
+		/* Selector descendiente */
+
+		header a{
+
+		}
+
+		.cabecera a.especial{
+
+		}
+
+		/* Selector de hijos */
+
+		li > a{
+
+		}
+
+		/* Selector universal */
+
+		*{
+			margin: 0;
+			padding: 0,
+		}
+
+		/* Selector universal combinado con descendiente */
+
+		div * a{
+
+		}
+
+		/* Selector adyacente */
+
+		h1 + h2{
+			color:red;
+		}
+
+		/* Selectores de atributos */
+
+		[class]{
+			
+		}
+
+		[href="http://www.ciclosmontecastelo.com"]{
+			text-decoration: none;
+		}
+
+		p[class~="c"]{
+			color: blue;
+		}
+
+		p[class^="c"]{
+			text-decoration: underline;
+		}
+
+		/************** Pseudoclases ************/
+
+		/* Enlaces */
+		a:link{
+				color: #FF0000;
+		}
+
+		a:visited{
+				color: #00FF00;
+		}
+
+		a:hover{
+				color: #FF00FF;
+		}
+		a:active{
+				color: #0000FF;
+		}
+
+		/* first:child */
+
+		p:first-child{
+
+		}
+
+		div p:first-child{
+			
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<ul class="w">
+		<li><span><a href="http://www.ciclosmontecastelo.com"> Descendiente de li</a></span></li>
+		<li><a href=""> Hijo de li</a></li>
+		</ul>
+
+		<h1> Titular </h1>
+		<h2> Subtitular </h2>
+		<p class="c c1"> Parrafo con clase que empieza por c</p>
+</body>
+</html>

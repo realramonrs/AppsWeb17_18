@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+ background: #009688;
+}
+h1 {
+    background-color: green;
+}
+
+div {
+    background-color: lightblue;
+}
+
+p {
+    background-color: yellow;
+}
+
+p span{
+	background-color: red;
+}
+
+div.imagen{
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url("imagenes/logo2.png");
+
+}
+
+
+
+div.imagenSinRepetir{
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url("imagenes/logo2.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+div.gradiente{
+	width: 80%;
+	margin: 0 auto;
+	height: 500px;
+	background-image: linear-gradient(white,grey);
+}
+
+.gradienteHorizontal{
+	width: 80%;
+	margin: 0 auto;
+	height: 300px;
+	background:linear-gradient(to right,red , yellow 10%);
+
+}
+
+.gradAngulo{
+	width: 80%;
+	margin: 0 auto;
+	height: 300px;
+	background: linear-gradient(45deg,red ,yellow 50%);
+	}
+
+	.radial1{
+		width: 80%;
+		margin: 0 auto;
+		height: 300px;
+		background: radial-gradient(red, yellow, green);
+	}
+
+	.radial2{
+		width: 80%;
+		margin: 0 auto;
+		height: 300px;
+		background:radial-gradient(red 5%, yellow 15%, green 60%)
+	}
+
+	.circulo{
+		width: 80%;
+		margin: 0 auto;
+		height: 300px;
+		background:radial-gradient(circle,red 5%, yellow 15%, green 60%)
+	}
+
+</style>
+</head>
+<body>
+
+<h1>CSS background-color ejemplo!</h1>
+<div>
+Esto es un texto dentro de un elemento div
+<p>Este parrafo <span>tiene</span> su propio color de fondo.</p>
+Todavía estamos en el elemento div.
+</div>
+
+<div class="imagen">
+</div>
+
+<div class="imagenSinRepetir">
+</div>
+
+<div class="gradiente">
+</div>
+<div class="gradienteHorizontal">
+	
+</div>
+
+<div class="gradAngulo">
+</div>
+
+<div class="radial1"></div>
+<div class="radial2"></div>
+<div class="circulo"></div>
+</body>
+</html>

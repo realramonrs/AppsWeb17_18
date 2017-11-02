@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	div{
+		display: inline-block;
+	}
+		div.contenedor{
+			border: 1px solid red;
+			padding: 1.5em;
+			margin:20px;
+		}
+
+		div.contenedor2{
+			border: 1px solid red;
+			padding: 1.5em 3em;
+			margin:30px;
+		}
+
+		h3{
+			border: 1px solid blue;
+			padding-left: 20px;
+			padding-bottom: 50px;
+			margin:2em;
+		}
+
+		div.estrecho{
+			width:400px;
+		}
+		div.estrecho p{
+			/*display: block;*/
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+		
+	</style>
+</head>
+<body>
+<div class="contenedor">
+		<h3>
+			Este es el titular
+		</h3>
+		<p>
+			Este es el parrafo asociado al titular anterior vamos a alargarlo un poco con fines didácticos
+		</p>
+
+		<p> Este es un parrafo pequenho </p>
+
+	</div>
+<div class="contenedor2">
+		<h3>
+			Este es el segundo titular
+		</h3>
+		<p>
+			Este es el parrafo asociado al titular anterior vamos a alargarlo un poco con fines didácticos
+		</p>
+
+		<p> Este es un parrafo pequenho </p>
+
+</div>
+
+<div class="estrecho">
+	
+		<!-- Los enlaces al ser elementos de linea las cajas se ajustan al contenido
+		no tienen relleno ni margen-->
+		<p><a href="#"> Enlace 1 con demasiado texto para un enlace normal quizas </a></p>
+		<p><a href="#"> Enlace 2 con demasiado texto para un enlace normal quizas</a></p>
+		<p><a href="#"> Enlace 3 con demasiado texto para un enlace normal quizas </a></p>
+</div>
+
+</body>
+</html>

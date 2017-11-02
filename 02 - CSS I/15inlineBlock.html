@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+
+    .oculto{
+        display: none;
+    }
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+    
+}
+
+.after-box {
+    border: 3px solid red;
+}
+
+.tabla p{
+	display: table-cell;
+	padding: 15px;
+	/*No es muy recomendable pero para salir de algún atasco puede funcionar*/
+}
+</style>
+</head>
+
+<body>
+
+<h2>The New Way - using inline-block</h2>
+
+<div class="floating-box oculto"> <p>Floating box</p> </div>
+<div class="floating-box"><p>Floating box</p> </div>
+<!-- A continuación se mete un div con más contenido para demostrar que esta no es la mejor formar de flotar elementos
+,solo funciona bien si el contenido de las cajas es muy idéntico -->
+<div class="floating-box"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p><!--Floating box --></div>
+<!--<div class="floating-box">Floating box </div>
+<div class="floating-box">Floating box </div>
+<div class="floating-box"><p>Floating box  </p></div>
+<div class="floating-box"><p>Floating box  </p></div>
+<div class="floating-box"><p>Floating box  </p></div>
+
+<div class="after-box">Another box, after the floating boxes...</div>
+-->
+<div class="tabla">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+-->
+</body>
+</html>
