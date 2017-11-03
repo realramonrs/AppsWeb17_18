@@ -1,0 +1,33 @@
+ul{
+			list-style-type: none;
+			padding-left: 50px;
+			width: 75%;
+			margin:0 auto;
+			text-align:center;
+		}
+
+		li{
+			background-color: yellow;
+			border: 20px inset #00ffd9;
+			width: 20%;
+			display: inline-block;
+			padding-top: 1em;
+			padding-bottom: 0.7em;
+		}
+
+		li:hover{
+			background-color: darkred;
+			font-size: 2em;
+
+		}
+
+		li:hover a{
+			color: white;
+		}
+
+		a{
+			text-decoration: none;
+			display: block;
+			/*width: 100%;*/
+
+		}
