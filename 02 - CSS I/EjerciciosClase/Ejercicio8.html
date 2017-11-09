@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<style type="text/css">
+
+	body{
+		font-family: 'Source Sans Pro', sans-serif;
+		color: rgb(15,68,143);
+	}
+
+	h2{
+		text-align: center;
+	}
+	div.container{
+			width: 90%;
+			margin:auto;
+			padding-left: 20px;
+		}
+	form{
+		width: 50%;
+		margin:0 auto;
+		background-color: #F5F3F0;
+		padding:20px;
+
+	}
+		label,.bloque{
+			display: block;
+			margin: 10px 0px;
+		}
+
+		input.cajaTexto,textarea{
+			width: 95%;
+			height: 30px;
+			border-radius: 5px;
+		}
+
+		textarea{
+			height: 70px;
+		}
+		
+		.boton{
+			
+			background-color: black;
+			color: white;
+			font-weight: bold;
+			padding: 10px;
+			border-radius: 10px;
+			border-color: transparent;
+		}
+		
+		.boton:hover{
+			font-size: 1.05em;
+			cursor: pointer;
+		}
+
+	</style>
+</head>
+<body>
+
+
+<form>
+
+	 <div class="container"> 
+	<h2> Contacta con nosotros </h2>
+	<label for="nombre"> Nombre: </label>
+	<input class="cajaTexto" type="text" id="nombre" placeholder="name">
+	<label for ="correo"> Dirección correo: </label>
+	<input class="cajaTexto" type="text" id="correo" placeholder="Email Address">
+	<label for="phone"> Número de teléfono: </label>
+	<input class="cajaTexto" type="text" id="phone">
+	<label for="mensaje"> Mensaje: </label>
+	<textarea class="cajaTexto" id="mensaje"> Mensaje </textarea>
+	<input  type="button" name="boton" value="Pulsar" class="bloque boton">
+	
+</form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Box Background</title>
+
+<style>
+body {
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.decoratedBox {
+  min-width: 320px;
+  height: 270px;
+  border: 1px solid gray;
+  margin: 20px;
+
+  background-image: url('top-left.png'), url('bottom-right.png');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+
+.decoratedBox p {
+  margin: 50px;
+  color: rgb(255,104,0);
+  font-weight: bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="decoratedBox">
+  <p>Esta caja combina dos imágenes de fondo, posicionadas en los bordes superior izquierda e inferior derecha.
+  </p>
+  <p>Puedes ver la diferencia al cambiar el tamaño de la ventana.</p>
+</div>
+
+</body>
+</html>
