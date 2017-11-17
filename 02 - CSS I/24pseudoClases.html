@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		a:hover{
+			text-decoration: none;
+			font-size: 1.1em;
+		}
+		div p:first-child{
+			color: blue;
+		}
+
+		p::selection{
+			/*-webkit-text-decoration: underline;*/
+			background-color: red;
+		}
+
+		ul li:nth-child(even){
+			color: blue;
+		}
+
+		ul li:nth-child(odd){
+			color: green;
+		}
+
+
+	</style>
+</head>
+<body>
+<p>Primer hijo del body</p>
+<div>
+<p> Este es el primer hijo</p>
+<p> Este es el segundo hijo</p>
+</div>
+<a href="#"> Ir al inicio</a>
+<ul>
+	<li>Elemento 1</li>
+	<li>Elemento 2</li>
+	<li>Elemento 3</li>
+	<li>Elemento 4</li>
+</ul>
+</body>
+</html>

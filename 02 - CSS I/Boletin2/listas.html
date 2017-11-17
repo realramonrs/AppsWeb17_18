@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+		body{
+			background-color: #5E2727;
+			font-family: 'Playfair display',serif;
+		}
+
+		/*Centrado de página*/
+		div#container{
+			width: 90%;
+			margin:0 auto;
+			background-color: white;
+		}
+
+		div#container ul{
+			
+		}
+
+		section#inicio{
+			text-align: center;
+			border-bottom: 1px dashed black;
+			height: 550px;
+		}
+
+		section#inicio article{
+			display: inline-block;
+			width: 30%;
+			height: 325px;
+			padding-right: 10px;
+		}
+		article#overflow{
+			height: 300px;
+		}
+
+		section#inicio article ul{
+			list-style-type: none;
+			text-align: left;
+		}
+
+
+		article#overflow ul{
+			height: 300px;
+			overflow-y: scroll;
+			padding-left: 0px;
+
+		}
+
+		section#inicio article ul li{
+			
+			background-size: 25px;
+			background-repeat: no-repeat;
+			padding-left: 30px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			border-bottom: 1px solid green;
+		}
+
+		section#inicio article ul.cine li{
+			background-image: url("Imagenes/film.jpg");
+		}
+		section#inicio article ul.libros li{
+			background-image: url("Imagenes/book.png");
+		}
+
+		section#inicio a{
+			text-decoration: none;
+			color:red;
+			padding: 10px;
+			border:1px solid orange;
+		}
+
+	</style>
+</head>
+<body>
+<div id="container">
+<main>
+<section id="inicio">
+	<h1> Top Ventas </h1>
+<article>
+	<h3> Las películas más molonas </h3>
+
+		<ul class="cine">
+			<li> Regreso al futuro </li>
+			<li> Origen </li>
+			<li> Cadena perpetua </li>
+			<li> Batman returns </li>
+			<li> El Padrino </li>
+			<li> La gran apuesta </li>
+			<li> Los odiosos ocho </li>
+			<li> Gran Torino </li>
+			<li> Héroe por accidente </li>
+			<li> Nightcrawler </li>
+		</ul>
+
+		<a href="#cine"> Ir a sección cine</a>
+</article>
+
+<article id="overflow">
+	<h3> Las libros más molones </h3>
+
+		<ul class="libros">
+			<li> El señor de los Anillos </li>
+			<li> Sinuhe el egipcio </li>
+			<li> La conjura de los necios </li>
+			<li> El hijo del Cónsul </li>
+			<li> El diario de Ana Frank </li>
+			<li> Los pilares de la Tierra </li>
+			<li> Niebla </li>
+			<li> Los escarabajos vuelan al atardecer </li>
+			<li> El principito </li>
+			<li> El pequeño Nicolás </li>
+			<li> Los escarabajos vuelan al atardecer </li>
+			<li> El principito </li>
+			<li> El pequeño Nicolás </li>
+		</ul>
+		<a href="#libros"> Ir a sección libros</a>
+</article>
+
+<article>
+	<h3> Las canciones más molonas </h3>
+
+		<ul>
+			<li> Starway to heaven </li>
+			<li> Sweet Child O'mine </li>
+			<li> Sultans of Swing </li>
+			<li> The sound of silence </li>
+			<li> Nothing else matters </li>
+			<li> Viva la vida </li>
+			<li> Somewhere only we know </li>
+			<li> Chasing cars </li>
+			<li> Wonderwall </li>
+			<li> Yesterday </li>
+		</ul>
+		<a href="#musica"> Ir a sección música</a>
+</article>
+</section>
+
+<section id="cine">
+	<h2> Lo mejor del cine actual </h2>
+	<article>
+	<h3> Se estrena Rogue One.</h3>
+	<h4> Lo nuevo de Star Wars</h4>
+	<img src="imagenes/rogue.jpg">
+		<p> El Imperio Galáctico ha terminado de construir el arma más poderosa de todas, la Estrella de la muerte, pero un grupo de rebeldes decide realizar una misión de muy alto riesgo: robar los planos de dicha estación antes de que entre en operaciones, mientras se enfrentan también al poderoso Lord Sith conocido como Darth Vader, discípulo del despiadado Emperador Palpatine. Film ambientado entre los episodios III y IV de Star Wars. (FILMAFFINITY)</p>
+		<a href="#inicio"> Volver al inicio </a>
+	</article>
+	
+</section>
+
+<section id="libros">
+	<h2> Lo mejor de la literatura actual </h2>
+	<article>
+	<h3> Stephen King saca nuevo libro.</h3>
+	<h4> Quien pierde gana </h4>
+	<img src="imagenes/king.jpg">
+		<p> Así comienza la fascinante nueva novela de Stephen King sobre un lector fanático. El genio es John Rothstein, un autor de culto, creador del personaje de Jimmy Gold. Morris Bellamy está fuera de sí, no solo porque Rothstein haya dejado de escribir, sino también porque considera que el inconformista Jimmy Gold se ha vendido para dedicarse a la publicidad. Morris decide matar a Rothstein y vacía su caja fuerte para llevarse no solo todo el dinero sino además el verdadero tesoro: los cuadernos de notas de otra novela protagonizada por Jimmy Gold.
+Morris lo esconde todo y al día siguiente acaba en la cárcel por otro crimen terrorífico. Décadas más tarde un chico llamado Pete Saubers encuentra el tesoro y ahora son él y su...</p>
+<a href="#inicio"> Volver al inicio </a>
+	</article>
+	
+</section>
+
+<section id = "musica">
+	<h2> Lo mejor de la música actual </h2>
+	<article>
+	<h3> Coldplay saca nuevo disco</h3>
+	<h4> Los autores de Viva la Vida</h4>
+	<img src="imagenes/coldplay.jpg">
+		<p> El Imperio Galáctico ha terminado de construir el arma más poderosa de todas, la Estrella de la muerte, pero un grupo de rebeldes decide realizar una misión de muy alto riesgo: robar los planos de dicha estación antes de que entre en operaciones, mientras se enfrentan también al poderoso Lord Sith conocido como Darth Vader, discípulo del despiadado Emperador Palpatine. Film ambientado entre los episodios III y IV de Star Wars. (FILMAFFINITY)</p>
+		<a href="#inicio"> Volver al inicio </a>
+	</article>
+	
+</section>
+</main>
+</div>
+</body>
+</html>
