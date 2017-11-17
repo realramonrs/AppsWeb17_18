@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div.container{
+			width: 60%;
+			max-width: 700px;
+			margin:0 auto;
+		}
+		table{
+			border-collapse: collapse;
+			border-bottom:1px solid #E1EEf4;
+			width: 100%;
+			/*width: 80%;
+			margin: 0 auto;*/
+		}
+
+		 td,th{
+			width: 25%;
+		}
+		td.cuerpo{
+
+		}
+
+		/* Estilos celda cabecera */
+		thead{
+			background-image: linear-gradient( #00557f,#006699);
+			color: white;
+			font-weight: bold;
+			text-align: center;
+			font-size: 1.1rem;
+
+		}
+		th#celda1{
+			background-image: url("Imagenes/iconoCabeza.png");
+			background-size: 25px;
+			background-repeat: no-repeat;
+			background-position: 2px center;
+		}
+
+		th#celda3{
+			background-image: url("Imagenes/iconoCabeza.png");
+			background-size: 25px;
+			background-repeat: no-repeat;
+			background-position: 2px center;
+		}
+
+		th#celda4{
+			background-image: url("Imagenes/iconoCabeza.png");
+			background-size: 25px;
+			background-repeat: no-repeat;
+			background-position: 2px center;
+		}
+
+		th.celdaCabecera{
+			padding: 15px 0px;
+		}
+
+		/*Estilos cuerpo tabla*/
+		tbody td{
+			border-right: 1px solid #E1EEf4;
+			padding-left: 10px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+
+			font-size: 0.9rem;
+			text-align: left;
+		}
+
+		tr.filaPar{
+			background-color: #E1EEf4;
+		}
+
+		/*Estilo pie de tabla*/
+		tfoot{
+			text-align: right;
+		}
+		tfoot ul{
+				list-style-type: none;
+				padding-left: 0px;
+		}
+
+		tfoot ul li{
+			display: inline;
+		}
+
+		tfoot ul li a{
+			text-decoration: none;
+			color: white;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border-radius: 5px;
+			background-image: linear-gradient( #00557f,#006699); 
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+<table id="tabla1">
+	<caption>Lista de aprobados Oposiciones Sergas</caption>
+		<thead>
+			<tr>
+				<th id="celda1" class="celdaCabecera">Nombre</th>
+				<th class="celdaCabecera">Apellidos</th>
+				<th id="celda3" class="celdaCabecera">Dirección</th>
+				<th id="celda4" class="celdaCabecera">Tlfn</th>
+				</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td colspan="4">
+						<div id="paging">
+							<ul>
+								<li>
+									<a href="#"><span>Previo</span></a>
+									</li>
+								<li>
+									<a href="#tabla1" class="active"><span>1</span></a>
+									</li>
+								<li>
+									<a href="#tabla2"><span>2</span></a>
+									</li>
+
+								<li>
+								<a href="#tabla3"><span>3</span></a>
+									</li>
+								<li>
+									<a href="#tabla4"><span>4</span></a>
+									</li>
+
+								<li>
+									<a href="#tabla5"><span>5</span></a>
+									</li>
+								<li>
+									<a href="#"><span>Siguiente</span></a>
+									</li>
+
+								</ul>
+							</div>
+						</tr>
+					</tfoot>
+				<tbody>
+					<tr>
+						<td class="cuerpo">Juan</td>
+						<td>Sánchez</td>
+						<td>Calle Faisán 67</td>
+						<td>677454545</td>
+					</tr>
+					<tr class="filaPar">
+						<td>Marta</td>
+						<td>Felipez</td>
+						<td>Calle Estornino 1</td>
+						<td>699898989</td>
+						</tr>
+					<tr>
+						<td>María</td>
+						<td>Mariez</td>
+						<td>Calle Urzaiz 900</td>
+						<td>988787012</td>
+					</tr>
+					<tr class="filaPar">
+						<td>Saúl</td>
+						<td>Olez</td>
+						<td>Calle Inventario 23</td>
+						<td>54454342</td>
+					</tr>
+					<tr>
+						<td>Ernesto</td>
+						<td>Arango</td>
+						<td>Calle Carioca 3</td>
+						<td>99999999</td>
+						</tr>
+			</tbody>
+		</table>
+		</div>
+</body>
+</html>
