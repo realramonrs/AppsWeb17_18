@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		header{
+			background-color: darkblue;
+			overflow: hidden;
+		}
+
+		header h1{
+			color: white;
+			float: left;
+		}
+
+		header nav{
+			background-color: red;
+			float: right;
+		}
+
+		header ul,footer ul{
+			list-style-type: none;
+			padding-left: 0px;
+
+		}
+
+		header li,footer li{
+			display: inline;
+			padding:1em;
+		}
+
+		header ul li a,footer ul li a{
+			color:black;
+			text-decoration: none;
+		}
+
+		div.principal{
+			box-sizing: border-box;
+			float: left;
+			width: 60%;
+			padding-right: 1em;
+		}
+		div.secundario{
+			box-sizing: border-box;
+			height: 450px;
+			background-color: orange;
+			float: left;
+			width: 40%;
+		}
+
+		footer{
+			clear: left;
+			background-color: darkblue;
+			/*overflow:hidden;*/
+		}
+
+		footer::after{
+			content:" ";
+			display: block;
+			clear: both;
+		}
+
+		footer ul{
+			background-color: red;
+		}
+
+		footer ul:first-child{
+			float: left;
+		}
+
+		footer ul:nth-child(2){
+			float: right;
+		}
+
+	</style>
+</head>
+<body>
+<header>
+	<h1> Logo de la página</h1>
+	<nav>
+		<ul>
+			<li><a href="#"> Inicio</a></li>
+			<li><a href="#"> About</a></li>
+			<li><a href="#"> Team</a></li>
+			<li><a href="#"> Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="principal">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolore sunt, voluptatum eveniet adipisci harum suscipit in error ratione possimus enim expedita consequatur, nisi ipsam nam, provident magnam, inventore eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae possimus nisi earum laudantium, veniam dolor nam labore, cumque qui beatae debitis tempore accusantium! Repellat ratione maiores, cumque perspiciatis asperiores inventore.</p>
+	<hr>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt provident veritatis necessitatibus aspernatur recusandae sed quasi reprehenderit id porro non, possimus quibusdam eum ratione cum, in facere vitae odio rerum!</p>
+</div>
+<div class="secundario">
+	</div>
+
+	<footer>
+		<ul>
+			<li><a href="#"> Inicio</a></li>
+			<li><a href="#"> About</a></li>
+			<li><a href="#"> Team</a></li>
+			<li><a href="#"> Contact</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="#">FB</a></li>
+			<li><a href="#">TW</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
